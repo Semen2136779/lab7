@@ -1,0 +1,41 @@
+.foto{
+width: 380px;
+height: 350px;
+margin-bottom: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container {
+display: flex;
+justify-content: space-between;
+width: 800px;
+height: 1100px;
+background-color: #454244;
+margin-left:52px;
+margin-top:42px;
+margin-bottom:42px;
+}
+.left-side {
+display: flex;
+flex-direction: column;
+}
+.right-side {
+display: flex;
+flex-direction: column;
+}
+.rectangle {
+width: 380px;
+height: 350px;
+background-color: white;
+margin-bottom: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+body {
+  background: rgb(62,126,136);
+  background: linear-gradient(9deg, rgba(62,126,136,1) 0%, rgba(138,57,57,1) 50%, rgba(133,96,45,1) 100%);
+}
+
